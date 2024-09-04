@@ -1,10 +1,6 @@
 # EVE Online
 
 <div id="video-container">
-  <iframe id="youtube-video" width="100%" height="320px" src="https://www.youtube.com/embed/78mIgZDJZew?si=VZrIu-wF8TPpA6yc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-  </iframe>
-  <iframe id="bilibili-video" width="100%" height="320px" src="https://player.bilibili.com/player.html?isOutside=true&aid=113078737896416&bvid=BV1PcpFeXETV&cid=25735137791&p=1&autoplay=0" scrolling="no" frameborder="no" framespacing="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true">
-  </iframe>
 </div>
 
 EVE Online is a community-driven spaceship MMORPG where players can play free, choosing their own path from countless options.
@@ -19,15 +15,32 @@ EVE Online and the EVE logo are the registered trademarks of CCP hf. All rights 
 <script>
 const currentUrl = window.location.href;
 const containsZh = currentUrl.includes('zh');
-const youtubeVideo = document.getElementById('youtube-video');
-const bilibiliVideo = document.getElementById('bilibili-video');
+const videoContainer = document.getElementById('video-container');
 
 if (containsZh) {
-  youtubeVideo.style.display = 'none'; 
-  bilibiliVideo.style.display = 'block'; 
+  const bilibiliIframe = document.createElement('iframe');
+  bilibiliIframe.id = 'bilibili-video';
+  bilibiliIframe.width = '100%';
+  bilibiliIframe.height = '320px';
+  bilibiliIframe.src = 'https://player.bilibili.com/player.html?isOutside=true&aid=113078737896416&bvid=BV1PcpFeXETV&cid=25735137791&p=1&autoplay=0';
+  bilibiliIframe.scrolling = 'no';
+  bilibiliIframe.frameborder = 'no';
+  bilibiliIframe.framespacing = '0';
+  bilibiliIframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+  bilibiliIframe.referrerpolicy = 'strict-origin-when-cross-origin';
+  bilibiliIframe.allowfullscreen = true;
+  videoContainer.appendChild(bilibiliIframe);
 } else {
-  youtubeVideo.style.display = 'block';
-  bilibiliVideo.style.display = 'none';
+  const youtubeIframe = document.createElement('iframe');
+  youtubeIframe.id = 'youtube-video';
+  youtubeIframe.width = '100%';
+  youtubeIframe.height = '320px';
+  youtubeIframe.src = 'https://www.youtube.com/embed/78mIgZDJZew?si=VZrIu-wF8TPpA6yc';
+  youtubeIframe.title = 'YouTube video player';
+  youtubeIframe.frameborder = '0';
+  youtubeIframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+  youtubeIframe.referrerpolicy = 'strict-origin-when-cross-origin';
+  youtubeIframe.allowfullscreen = true;
+  videoContainer.appendChild(youtubeIframe);
 }
 </script>
-

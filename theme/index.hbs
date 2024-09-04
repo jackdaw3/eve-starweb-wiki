@@ -53,6 +53,20 @@
             .theme-selected::before {
                 display: none;
             }
+        
+            #language-list {
+                left: auto;
+                right: 3.5%;
+            }
+        
+            [dir="rtl"] #language-list {
+                left: 3.5%;
+                right: auto;
+            }
+        
+            #language-list a {
+                color: inherit;
+            }
         </style>
     </head>
     <body class="sidebar-visible no-js">
@@ -69,7 +83,7 @@
 
             let userSelectedLanguage = localStorage.getItem('wikiLang');
 
-            {{!-- if (!userSelectedLanguage) {
+            if (!userSelectedLanguage) {
                 let matchedLanguage = availableLanguages.find(lang => lang === browserLanguage);
                 if (!matchedLanguage) {
                     matchedLanguage = availableLanguages.find(lang => lang.startsWith(browserLanguage.slice(0, 2)));
@@ -87,7 +101,7 @@
                     targetUrl = `https://eve.starweb.cc/wiki/zh/index.html`;
                     window.location.href = targetUrl;
                 }
-            } --}}
+            }
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->

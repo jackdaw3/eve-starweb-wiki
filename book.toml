@@ -13,10 +13,7 @@ after = ["links"]
 enable = true
 
 [output.html]
-favicon = "public/icon.png" 
-default-theme = "Ayu"
+default-theme = "ayu"
+preferred-dark-theme= "ayu"
 no-section-label = true
 git-repository-url = "https://github.com/jackdaw3/eve-starweb-wiki"
-additional-css = [
-  "theme/css/language-picker.css",
-]
