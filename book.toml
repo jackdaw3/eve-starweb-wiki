@@ -1,0 +1,22 @@
+[book]
+authors = ["Alex"]
+src = "src"
+title = ""
+
+[build]
+extra-watch-dirs = ["po"]
+
+[preprocessor.gettext]
+after = ["links"]
+
+[output.html.fold]
+enable = true
+
+[output.html]
+favicon = "public/icon.png" 
+default-theme = "Ayu"
+no-section-label = true
+git-repository-url = "https://github.com/jackdaw3/eve-starweb-wiki"
+additional-css = [
+  "theme/css/language-picker.css",
+]

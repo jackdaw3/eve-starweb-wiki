@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2024-09-04T20:12:01+08:00\n"
+"PO-Revision-Date: 2024-09-04 17:06+0800\n"
+"Last-Translator: Alex <EMAIL@ADDRESS>\n"
+"Language-Team: Chinese\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src\SUMMARY.md:1
+msgid "Summary"
+msgstr "目录"
+
+#: src\SUMMARY.md:3
+msgid "Home"
+msgstr "主页"
+
+#: src\SUMMARY.md:5 src\background.md:1
+msgid "Background"
+msgstr "游戏背景"
+
+#: src\SUMMARY.md:6 src\pve.md:1
+msgid "PVE"
+msgstr "PVE"
+
+#: src\SUMMARY.md:7 src\pvp.md:1
+msgid "PVP"
+msgstr "PVP"
+
+#: src\SUMMARY.md:8 src\website.md:1
+msgid "Website & Software"
+msgstr "网站和工具"
+
+#: src\SUMMARY.md:9 src\development.md:1
+msgid "Development"
+msgstr "开发相关"
+
+#: src\SUMMARY.md:10 src\dev/esi.md:1
+msgid "ESI"
+msgstr "ESI"
+
+#: src\SUMMARY.md:11 src\dev/resources.md:1
+msgid "Resources"
+msgstr "静态资源"
+
+#: src\SUMMARY.md:12 src\dev/sso.md:1
+msgid "EVE SSO"
+msgstr "EVE SSO"
+
+#: src\SUMMARY.md:13 src\contribution.md:1
+msgid "Contribution"
+msgstr "帮助建设"
+
+#: src\SUMMARY.md:14 src\about.md:1
+msgid "About"
+msgstr "关于"
+
+#: src\home.md:1
+msgid "EVE Online"
+msgstr "EVE Online"
+
+#: src\home.md:10
+msgid ""
+"EVE Online is a community-driven spaceship MMORPG where players can play "
+"free, choosing their own path from countless options."
+msgstr ""
+"EVE Online是一款由社区主导的大型多人在线角色扮演飞船游戏，玩家可免费游玩，并"
+"从无数玩法中选择自己喜欢的。"
+
+#: src\home.md:12
+msgid ""
+"Experience space exploration, immense PvP and PvE battles and a thriving "
+"player economy in an ever-expanding sandbox."
+msgstr ""
+"在不断扩张的沙盒中探索太空，参与大型PVP和PVE战斗，并创造蓬勃发展的玩家经济。"
+
+#: src\home.md:14
+msgid ""
+"Participate in many in-game professions and activities, including war, "
+"politics, piracy, trading, and exploration, across 7,000 star systems with "
+"hundreds of thousands of other players."
+msgstr ""
+"与成千上万的其他玩家一起在7,000个星系中体验多种游戏中职业和活动，参与战争、政"
+"治、海盗、贸易和探索。"
+
+#: src\home.md:16
+msgid "Notice"
+msgstr "声明"
+
+#: src\home.md:17
+msgid ""
+"EVE Online and the EVE logo are the registered trademarks of CCP hf. All "
+"rights are reserved worldwide. All other trademarks are the property of "
+"their respective owners. EVE Online, the EVE logo, EVE and all associated "
+"logos and designs are the intellectual property of CCP hf. All artwork, "
+"screenshots, characters, vehicles, storylines, world facts or other "
+"recognizable features of the intellectual property relating to these "
+"trademarks are likewise the intellectual property of CCP hf."
+msgstr ""
+"EVE Online and the EVE logo are the registered trademarks of CCP hf. All "
+"rights are reserved worldwide. All other trademarks are the property of "
+"their respective owners. EVE Online, the EVE logo, EVE and all associated "
+"logos and designs are the intellectual property of CCP hf. All artwork, "
+"screenshots, characters, vehicles, storylines, world facts or other "
+"recognizable features of the intellectual property relating to these "
+"trademarks are likewise the intellectual property of CCP hf."
